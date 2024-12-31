@@ -1,26 +1,42 @@
 const express = require('express');
+const cors = require('cors');
+const destinations = require('./destinations.json'); // Import the JSON data
+
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 5000;
 
-// Sample data
-let destinations = [
-  { id: 1, name: 'Mumbai', country: 'India' },
-  { id: 2, name: 'Paris', country: 'France' }
-];
+// Middleware
+app.use(cors());
 
-// Routes
-app.get('/api/destinations', (req, res) => {
-  res.json(destinations);
-});
+// // Get all packages
+// app.get('/api/packages', (req, res) => {
+//   res.json(destinations);
+// });
 
-app.get('/api/destinations/:id', (req, res) => {
-  const destination = destinations.find(d => d.id === parseInt(req.params.id));
-  if (!destination) {
-    return res.status(404).send('Destination not found');
+// Get packages by city
+app.get('/api/packages', (req, res) => {
+  const city = req.query.city;
+  if (city) {
+    const filteredPackages = destinations.filter(pkg =>
+      pkg.city.toLowerCase() === city.toLowerCase()
+    );
+    return res.json(filteredPackages); 
   }
-  res.json(destination);
+  res.json(destinations); 
 });
 
-app.listen(port, () => {
-  console.log(`API is running on http://localhost:${port}`);
+
+// Get a single package by ID
+app.get('/api/packages/:id', (req, res) => {
+  const packageId = req.params.id;
+  const selectedPackage = destinations.find(pkg => pkg.id === packageId);
+
+  if (!selectedPackage) {
+    return res.status(404).json({ message: 'Package not found' });
+  }
+
+  res.json(selectedPackage);
 });
+
+// Start Server
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

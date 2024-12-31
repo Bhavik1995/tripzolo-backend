@@ -1,0 +1,308 @@
+[
+  {
+    "id": "1",
+    "name": "Most Wanted Goa Package",
+    "city": "Goa",
+    "duration": "4N/5D",
+    "benefits": {
+      "leftSide": ["Round Trip Details", "Airport Transfers"],
+      "rightSide": ["4 Star Hotel", "Selected Meals"]
+    },
+    "price": {
+      "emi": 11986,
+      "perPerson": 35958,
+      "totalPrice": 71916
+    },
+    "image": "assets/images/goa_most_wanted.jpg",
+    "description": "Discover the best of Goa with this popular package, featuring beautiful beaches, vibrant nightlife, and serene relaxation."
+  },
+  {
+    "id": "2",
+    "name": "Goa Luxury Getaway",
+    "city": "Goa",
+    "duration": "5N/6D",
+    "benefits": {
+      "leftSide": ["Private Yacht Ride", "Luxury Spa Treatment"],
+      "rightSide": ["5 Star Resort", "All Meals Included"]
+    },
+    "price": {
+      "emi": 13500,
+      "perPerson": 40500,
+      "totalPrice": 81000
+    },
+    "image": "/assets/images/goa_luxury_getaway.jpg",
+    "description": "Indulge in a luxurious stay in Goa, with a private yacht ride, rejuvenating spa treatments, and top-class accommodations."
+  },
+  {
+    "id": "3",
+    "name": "Goa Beach Vibes",
+    "city": "Goa",
+    "duration": "4N/5D",
+    "benefits": {
+      "leftSide": ["Beach Access", "Water Sports Activities"],
+      "rightSide": ["3 Star Hotel", "All Meals Included"]
+    },
+    "price": {
+      "emi": 11140,
+      "perPerson": 33420,
+      "totalPrice": 66840
+    },
+    "image": "/assets/images/goa_beach_vibes.jpg",
+    "description": "Relax on Goa’s pristine beaches and enjoy thrilling water sports with this exciting beach vacation package."
+  },
+  {
+    "id": "4",
+    "name": "Royal Rajasthan Tour",
+    "city": "Jaipur",
+    "duration": "5N/6D",
+    "benefits": {
+      "leftSide": ["Guided City Tours", "Complimentary Spa Session"],
+      "rightSide": ["5 Star Resort", "All Meals Included"]
+    },
+    "price": {
+      "emi": 15876,
+      "perPerson": 47550,
+      "totalPrice": 95100
+    },
+    "image": "/assets/images/jaipur_royal_rajasthan.jpg",
+    "description": "Experience the royal heritage of Rajasthan with a luxurious stay, guided tours of Jaipur’s magnificent palaces, and a relaxing spa."
+  },
+  {
+    "id": "5",
+    "name": "Jaipur Desert Safari Adventure",
+    "city": "Jaipur",
+    "duration": "4N/5D",
+    "benefits": {
+      "leftSide": ["Camel Ride", "Desert Safari"],
+      "rightSide": ["4 Star Hotel", "Meals Included"]
+    },
+    "price": {
+      "emi": 12500,
+      "perPerson": 37500,
+      "totalPrice": 75000
+    },
+    "image": "/assets/images/jaipur_desert_safari.jpg",
+    "description": "Embark on a thrilling desert safari in Jaipur with camel rides, cultural experiences, and a stay at a luxurious resort."
+  },
+  {
+    "id": "6",
+    "name": "Kerala Backwater Escape",
+    "city": "Kochi",
+    "duration": "3N/4D",
+    "benefits": {
+      "leftSide": ["Private Houseboat Ride", "Cultural Shows"],
+      "rightSide": ["4 Star Hotel", "Breakfast and Dinner Included"]
+    },
+    "price": {
+      "emi": 12450,
+      "perPerson": 37350,
+      "totalPrice": 74700
+    },
+    "image": "/assets/images/kerala_backwaters.jpg",
+    "description": "Sail through Kerala’s serene backwaters on a private houseboat and enjoy the local cultural shows in the picturesque town of Kochi."
+  },
+  {
+    "id": "7",
+    "name": "Kerala Hill Station Retreat",
+    "city": "Kochi",
+    "duration": "5N/6D",
+    "benefits": {
+      "leftSide": ["Tea Plantation Tour", "Spa Retreat"],
+      "rightSide": ["Luxury Resort", "All Meals Included"]
+    },
+    "price": {
+      "emi": 14200,
+      "perPerson": 42600,
+      "totalPrice": 85200
+    },
+    "image": "/assets/images/kerala_hill_station.jpg",
+    "description": "Escape to the hills of Kerala for a rejuvenating retreat with tea plantation tours, relaxing spa sessions, and a stay in a luxury resort."
+  },
+  {
+    "id": "8",
+    "name": "Himalayan Adventure Trek",
+    "city": "Manali",
+    "duration": "6N/7D",
+    "benefits": {
+      "leftSide": ["Trekking Equipment", "Adventure Activities"],
+      "rightSide": ["3 Star Cottage", "Meals During Trek"]
+    },
+    "price": {
+      "emi": 10520,
+      "perPerson": 31560,
+      "totalPrice": 63120
+    },
+    "image": "/assets/images/himalayan_trek.jpg",
+    "description": "Explore the rugged landscapes of the Himalayas on a thrilling trek, with breathtaking views and adventure-packed activities."
+  },
+  {
+    "id": "9",
+    "name": "Manali Snow Adventure",
+    "city": "Manali",
+    "duration": "5N/6D",
+    "benefits": {
+      "leftSide": ["Snow Activities", "Skiing Lessons"],
+      "rightSide": ["3 Star Hotel", "Meals Included"]
+    },
+    "price": {
+      "emi": 12000,
+      "perPerson": 36000,
+      "totalPrice": 72000
+    },
+    "image": "/assets/images/manali_snow_adventure.jpg",
+    "description": "Experience thrilling snow activities in Manali, including skiing lessons and snowboarding, in the heart of the Himachal mountains."
+  },
+  {
+    "id": "10",
+    "name": "Sikkim Serenity",
+    "city": "Gangtok",
+    "duration": "5N/6D",
+    "benefits": {
+      "leftSide": ["Mountain View Rooms", "Nature Walks"],
+      "rightSide": ["4 Star Resort", "Breakfast and Dinner"]
+    },
+    "price": {
+      "emi": 14130,
+      "perPerson": 42390,
+      "totalPrice": 84780
+    },
+    "image": "/assets/images/sikkim_serenity.jpg",
+      "description": "Unwind in the serene landscapes of Sikkim with stunning mountain views, nature walks, and a peaceful stay in Gangtok."
+  },
+  {
+    "id": "11",
+    "name": "Sikkim Adventure Expedition",
+    "city": "Gangtok",
+    "duration": "6N/7D",
+    "benefits": {
+      "leftSide": ["Rock Climbing", "Trekking"],
+      "rightSide": ["Luxury Cottage", "Meals Included"]
+    },
+    "price": {
+      "emi": 16000,
+      "perPerson": 48000,
+      "totalPrice": 96000
+    },
+    "image": "/assets/images/sikkim_adventure_expedition.jpg",
+    "description": "For the adventurous traveler, embark on a thrilling trek and rock climbing expedition in Sikkim, staying in luxury cottages with amazing views."
+  },
+  {
+    "id": "12",
+    "name": "Andaman Beach Escape",
+    "city": "Port Blair",
+    "duration": "3N/4D",
+    "benefits": {
+      "leftSide": ["Island Hopping Tour", "Snorkeling Included"],
+      "rightSide": ["5 Star Hotel", "Selected Meals Included"]
+    },
+    "price": {
+      "emi": 15680,
+      "perPerson": 47040,
+      "totalPrice": 94080
+    },
+    "image": "/assets/images/andaman_beach_escape.jpg",
+    "description": "Explore the idyllic islands of the Andaman Sea, with island hopping, snorkeling, and luxurious accommodations."
+  },
+  {
+    "id": "13",
+    "name": "Andaman Luxury Cruise",
+    "city": "Port Blair",
+    "duration": "5N/6D",
+    "benefits": {
+      "leftSide": ["Luxury Cruise", "Private Island Tour"],
+      "rightSide": ["5 Star Resort", "All Meals Included"]
+    },
+    "price": {
+      "emi": 18000,
+      "perPerson": 54000,
+      "totalPrice": 108000
+    },
+    "image": "/assets/images/andaman_luxury_cruise.jpg",
+    "description": "Indulge in a luxury cruise experience in the Andaman Islands with a private island tour, water activities, and a premium stay at a 5-star resort."
+  },
+  {
+    "id": "14",
+    "name": "Delhi Heritage Tour",
+    "city": "Delhi",
+    "duration": "2N/3D",
+    "benefits": {
+      "leftSide": ["Historical Monuments", "Private Guide"],
+      "rightSide": ["3 Star Hotel", "Breakfast Included"]
+    },
+    "price": {
+      "emi": 9780,
+      "perPerson": 29340,
+      "totalPrice": 58680
+    },
+    "image": "/assets/images/delhi_heritage_tour.jpg",
+    "description": "Dive into Delhi’s rich history with a guided tour of its iconic monuments, including the Red Fort and Qutub Minar."
+  },
+  {
+    "id": "15",
+    "name": "Kolkata Cultural Exploration",
+    "city": "Kolkata",
+    "duration": "4N/5D",
+    "benefits": {
+      "leftSide": ["Traditional Dance Performances", "Museum Tours"],
+      "rightSide": ["4 Star Hotel", "All Meals Included"]
+    },
+    "price": {
+      "emi": 12340,
+      "perPerson": 37020,
+      "totalPrice": 74040
+    },
+    "image": "/assets/images/kolkata_cultural_exploration.jpg",
+    "description": "Immerse yourself in Kolkata’s culture with visits to traditional dance performances, museums, and historical landmarks."
+  },
+  {
+    "id": "16",
+    "name": "Mysore Palace and Wildlife Tour",
+    "city": "Mysore",
+    "duration": "3N/4D",
+    "benefits": {
+      "leftSide": ["Palace Entry", "Safari Tour"],
+      "rightSide": ["3 Star Resort", "Lunch and Dinner Included"]
+    },
+    "price": {
+      "emi": 10550,
+      "perPerson": 31650,
+      "totalPrice": 63300
+    },
+    "image": "/assets/images/mysore_palace_wildlife.jpg",
+    "description": "Explore the grandeur of Mysore Palace and experience a thrilling safari tour through nearby wildlife reserves."
+  },
+  {
+    "id": "17",
+    "name": "Mysore Heritage and Nature Escape",
+    "city": "Mysore",
+    "duration": "4N/5D",
+    "benefits": {
+      "leftSide": ["Heritage Walk", "Nature Trails"],
+      "rightSide": ["4 Star Resort", "All Meals Included"]
+    },
+    "price": {
+      "emi": 11600,
+      "perPerson": 34800,
+      "totalPrice": 69600
+    },
+    "image": "/assets/images/mysore_heritage_nature.jpg",
+    "description": "Combine heritage and nature with a stay in Mysore, exploring its royal palaces and taking nature walks in the nearby reserves."
+  },
+  {
+    "id": "18",
+    "name": "Leh Ladakh Road Trip",
+    "city": "Leh",
+    "duration": "7N/8D",
+    "benefits": {
+      "leftSide": ["Off-road Biking", "Camping in the Desert"],
+      "rightSide": ["Tented Accommodation", "All Meals Included"]
+    },
+    "price": {
+      "emi": 17690,
+      "perPerson": 53070,
+      "totalPrice": 106140
+    },
+    "image": "/assets/images/leh_ladakh_road_trip.jpg",
+    "description": "Embark on an adventurous road trip through Leh Ladakh, with off-road biking, desert camping, and breathtaking landscapes."
+  }
+]
