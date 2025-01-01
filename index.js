@@ -13,6 +13,12 @@ app.use(cors());
 //   res.json(destinations);
 // });
 
+app.get('/api/cities', (req, res) => {
+  const cities = destinations.map(pkg => pkg.city);
+  const uniqueCities = [...new Set(cities)];
+  res.json(uniqueCities);
+});
+
 // Get packages by city
 app.get('/api/packages', (req, res) => {
   const city = req.query.city;
